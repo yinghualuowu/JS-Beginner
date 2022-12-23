@@ -8,9 +8,16 @@
 </head>
 <body>
     <script>
-        (function(num1,num2){
-
-        })(1,2)
+        let foo = {
+            name:'1',
+            age:2,
+            fun:function(){
+                document.write('2')
+            }
+        }
+        console.log(foo.age)
+        console.log(foo['name'])
+        foo.fun()
     </script>
 </body>
 </html>

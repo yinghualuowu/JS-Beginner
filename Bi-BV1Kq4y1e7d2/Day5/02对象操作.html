@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj = {
+            name : '1',
+            age : 18
+        }
+        //新增属性
+        obj.xx = '1'
+        //新增方法
+        obj.foo = function (){
+
+        }
+
+        console.dir(obj)
+
+        for(let k in obj){
+            console.log(k)
+            console.log(obj[k])
+        }
+    </script>
+</body>
+</html>
